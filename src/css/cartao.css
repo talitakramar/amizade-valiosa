@@ -1,0 +1,77 @@
+.cartao-amigas {
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.cartao-amigas .cartao-topo {
+    padding: 30px 40px 0;
+   }
+
+.cartao-amigas .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-amigas .tipo {
+    font-size: 12px;
+    background-color: #f8f5ee;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cartao-amigas .detalhes {
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-amigas .cartao-imagem {
+    width: 350px;
+    height: 350px;
+    }
+
+.cartao-amigas img {
+    max-height: 100%;
+    padding: 20px 0 0 70px;
+    
+}
+
+.cartao-amigas .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d4e895;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-amigas .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #3c3d3d;
+}
+
+.cartao-amigas .cartao-informacoes .status, .cartao-amigas .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-amigas .cartao-informacoes .habilidades ul li, .cartao-amigas .cartao-informacoes .sobre ul li {
+    border-bottom: 1px solid #FFFFFF;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #3c3d3d;
+}
+
+.cartao-amigas.aberto {
+    display: block;
+}
+
+.tipo-companheira, .tipo-virtuosa, .tipo-amiga, .tipo-comunicativa, .tipo-sincera, .tipo-alegre {
+    background-color: #ffffff;
+}

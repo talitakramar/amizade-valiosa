@@ -1,0 +1,37 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .amigas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #fcffd2;
+    color: #000000;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.15s ease-in-out;
+
+}
+
+.listagem .amigas:hover {
+    transform: scale(1.05);
+}
+
+.listagem .amigas img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .amigas span {
+    padding-right: 20px
+}
+
+.listagem .amigas.ativo {
+    background-color: #d4e895;
+}
